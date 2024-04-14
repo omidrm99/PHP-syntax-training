@@ -33,6 +33,7 @@ class CommandReader
         }
         $this->command_name = $this->data['command_name'];
         $this->parameters = $this->data['parameters'];
+        $this->letterCapital();
     }
 
     private function commandDetector(): void
@@ -40,16 +41,15 @@ class CommandReader
         $commandExecute = new CommandExecute();
         $allBooks = new Merger();
 
-        if (in_array($this->data['command_name'][0], ["FIND", "ADD"])){
+        if (in_array($this->data['command_name'][0], ["FIND", "ADD"])) {
             $this->resaults = $commandExecute->getResult();
-        }else{
+        } else {
             $this->resaults = $allBooks->getSortedBooks();
         }
     }
 
     public function getResults(): array
     {
-
         if (empty($this->resaults)) {
             $this->commandDetector();
         }
@@ -59,5 +59,13 @@ class CommandReader
     public function getCommand(): mixed
     {
         return $this->data;
+    }
+
+    private function letterCapital(): void
+    {
+        $string = $this->data['command_name'][0];
+
+        $lowercaseString = strtoupper($string);
+        $this->data['command_name'][0] = $lowercaseString;
     }
 }
