@@ -4,7 +4,8 @@ declare(strict_types=1);
 require __DIR__ . '/../../vendor/autoload.php';
 
 use App\pagination\PaginatorView;
-
+var_dump(json_File_Path);
+exit();
 const csv_File_Path = __DIR__ . '/../database/books.csv';
 const json_File_Path = __DIR__ . '/../database/books.json';
 
