@@ -1,6 +1,6 @@
 <?php
 
-namespace App\app;
+namespace App\validator;
 
 use http\Exception\InvalidArgumentException;
 use App\Enums\Command;
@@ -15,16 +15,13 @@ class CommandValidation
         $this->checkCommand(Command::ALL);
     }
 
-
-    public function checkCommand(string $command): self
+    public function checkCommand(string $command): bool
     {
         if (!isset(Command::ALL_COMMANDS[$command])) {
-            throw new InvalidArgumentException('Invalid Command');
+            return false;
         }
 
-
-        $this->command = $command;
-
-        return $this;
+        return true;
     }
+
 }

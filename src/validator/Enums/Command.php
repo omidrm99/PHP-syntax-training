@@ -1,5 +1,5 @@
 <?php
-namespace App\Enums;
+namespace App\validator\Enums;
 class Command
 {
     public const ALL = 'ALL';
