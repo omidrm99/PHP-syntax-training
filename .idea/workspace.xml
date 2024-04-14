@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e3de035-34b4-4d58-aca9-cbf6cc1c16b8" name="Changes" comment="some minor bug fixes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/Command.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/Command.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/request/CommandReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/request/CommandReader.php" afterDir="false" />
-    </list>
+    <list default="true" id="6e3de035-34b4-4d58-aca9-cbf6cc1c16b8" name="Changes" comment="index updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +21,25 @@
     </option>
   </component>
   <component name="GitToolBoxStore">
+    <option name="branchesCleanupHistory">
+      <BranchesCleanupHistory>
+        <option name="history">
+          <list>
+            <BranchCleanupEntry>
+              <option name="deletions">
+                <list>
+                  <BranchDeletion>
+                    <option name="hash" value="5dbfca01c99caf7083e31da7c9e6615a8e3346d9" />
+                    <option name="name" value="validator" />
+                  </BranchDeletion>
+                </list>
+              </option>
+              <option name="timestamp" value="1713110249721" />
+            </BranchCleanupEntry>
+          </list>
+        </option>
+      </BranchesCleanupHistory>
+    </option>
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
@@ -72,7 +86,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "validator",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/XAMPP/htdocs/my/src/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,6 +119,31 @@
       <updated>1713104978299</updated>
       <workItem from="1713104979391" duration="1192000" />
     </task>
+    <task id="LOCAL-00001" summary="now you can senc command in lower case and upper case">
+      <option name="closed" value="true" />
+      <created>1713110186387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713110186387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="now you can send command in lower case and upper case">
+      <option name="closed" value="true" />
+      <created>1713110309369</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713110309369</updated>
+    </task>
+    <task id="LOCAL-00003" summary="index updated">
+      <option name="closed" value="true" />
+      <created>1713110427615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713110427616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some minor bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some minor bug fixes" />
+    <MESSAGE value="now you can send command in lower case and upper case" />
+    <MESSAGE value="index updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="index updated" />
   </component>
 </project>
