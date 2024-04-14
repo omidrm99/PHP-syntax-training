@@ -2,13 +2,13 @@
 namespace App\Enums;
 class Command
 {
-    public const ALL = 'all';
-    public const FIND = 'find';
-    public const ADD = 'add';
+    public const ALL = 'ALL';
+    public const FIND = 'FIND';
+    public const ADD = 'ADD';
 
     public const ALL_COMMANDS = [
-        self::ALL => 'hamise',
-        self::FIND => 'tap',
-        self::ADD => 'izafalat'
+        self::ALL => 'All',
+        self::FIND => 'Find',
+        self::ADD => 'Add'
     ];
 }

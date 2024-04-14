@@ -12,15 +12,14 @@ class CommandValidation
 
     public function __construct()
     {
-        $this->setCommand(Command::ALL);
+        $this->checkCommand(Command::ALL);
     }
 
 
-    public function setCommand(string $command): self
+    public function checkCommand(string $command): self
     {
         if (!isset(Command::ALL_COMMANDS[$command])) {
             throw new InvalidArgumentException('Invalid Command');
-
         }
 
 
