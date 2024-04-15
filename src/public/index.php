@@ -11,16 +11,22 @@ const json_File_Path = __DIR__ . '/../database/books.json';
 $commandReader = new CommandReader();
 $commandValidation = new CommandValidation();
 
+
 if ($commandValidation->checkCommand($commandReader->getCommand())){
-    try {
-        $perPage = isset($_GET['per_page']) ? $_GET['per_page'] : 5;
-        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-        $paginatorView = new PaginatorView($perPage, $page);
-    } catch (Exception $e) {
-        echo "Error: " . $e->getMessage();
-    }
+
 }else {
     echo 'wrong command PREPARE TO DIE ';
+}
+
+
+
+
+try {
+    $perPage = isset($_GET['per_page']) ? $_GET['per_page'] : 5;
+    $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+    $paginatorView = new PaginatorView($perPage, $page);
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
 }
 
 
