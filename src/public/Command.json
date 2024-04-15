@@ -1,4 +1,5 @@
 {
     "command_name": ["find", "booktitle"],
-    "parameters": ["Sands of Serenity", "The Enigmatic Odyssey"]
+    "parameters": ["Sands of Serenity", "The Enigmatic Odyssey"],
+    "newBook": []
 }
