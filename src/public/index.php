@@ -11,7 +11,6 @@ const json_File_Path = __DIR__ . '/../database/books.json';
 $commandReader = new CommandReader();
 $commandValidation = new CommandValidation();
 
-
 if ($commandValidation->checkCommand($commandReader->getCommand())){
 
 }else {
